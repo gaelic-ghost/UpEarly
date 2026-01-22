@@ -1,5 +1,5 @@
 //
-//  Tasking.swift
+//  Tasks.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/22/26.
@@ -23,7 +23,7 @@
 /// Asdf
 extension UEAController {
 	/// Asdf
-	final class Tasking {
+	final class Tasks {
 		// TODO: Stuff.
 	}
 }

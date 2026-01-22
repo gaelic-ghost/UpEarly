@@ -1,5 +1,5 @@
 //
-//  Headline.swift
+//  Headlines.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/22/26.
@@ -21,7 +21,7 @@
 /// Asdf
 extension UEAController {
 	/// Asdf
-	final class Headline {
+	final class Headlines {
 		// TODO: Stuff.
 	}
 }
