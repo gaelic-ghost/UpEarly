@@ -9,7 +9,7 @@ import SwiftUI
 
 extension UpEarly.Views{
 	
-	/// Asdf
+	/// Floating, separate hierarchy... maybe should adjust that, though... need to double check that info...
 	struct UtilityWindow: View {
 		var body: some View {
 			Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)

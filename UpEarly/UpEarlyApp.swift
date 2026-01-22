@@ -19,6 +19,10 @@ import SwiftUI
 // TODO: Add: User Preferences via AppStorage/UserDefaults. Double-check syntax and need for default values to be set in init(), I'm not sure if I remember some caveat with that or not...
 // TODO: Add: Other User Preferences.
 // TODO: Add: User Preferences integrated into SettingsWindow.
+// TODO: Add: Shared AppGroup Container.
+// TODO: Add: Various Services in the Controllers namespace.
+// TODO: Organize TODO pragmas across various namespaces.
+// TODO: Add: Basic ViewModifiers, including MenuBarExtra-specific ones.
 
 @main
 struct UpEarlyApp: App {
@@ -50,8 +54,10 @@ struct UpEarlyApp: App {
 			/// Switch on the UserDefault for preferred "StatusView Style"
 			/// Using an enum to ensure switching is exhaustive and type-safe.
 			switch statusViewStyle {
+					/// Case is .menu and the StatusMenu() View should be returned.
 				case .menu:
 					UpEarly.Views.StatusMenu()
+					/// Case is .window and the StatisWindow() View should be returned, docked to the MenuBarExtra Scene.
 				case .window:
 					/// Docked Window
 					UpEarly.Views.StatusWindow()

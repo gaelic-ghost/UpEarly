@@ -9,6 +9,7 @@ import SwiftUI
 
 extension UpEarly.Views{
 	
+	/// Window style, docked to MenuBarExtra Scene.
 	struct StatusWindow: View {
 		var body: some View {
 			Text("Hello, World!")
