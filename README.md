@@ -28,3 +28,12 @@ I want an easy way to get up to speed on my day ahead. Preferably via spoken nat
 - A lot of other stuff.
 - Ship it. No, no, no, not that kind of... *sighs*
 
+## Tasks & Progress
+
+I use Xcode a lot, so any codebase-related tasks are gonna be in-source as pragmas. Two examples are listed immediately below:
+- A formatted example of a to-do mark: `// TODO: - This would indicate a waiting task on the proverbial "To-Do list".`
+- A formatted example of a bug-fix mark: `// FIXME: - This would indicate a bug, it probably needs squashed.`
+
+In addition to the coding tasks found among the source code, the repository-related tasks are listed immediately below:
+- Add Apache license.
+- Other stuff.
