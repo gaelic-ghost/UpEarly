@@ -1,16 +1,17 @@
 //
-//  Controllers.swift
+//  UpEarly+Controllers.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/22/26.
 //
 
-import Foundation
-
 // TODO: A lot...
 
+/// A typealias of the namespace 'UEA.Controllers'
+typealias UEAController = UEA.Controllers
+
 /// Asdf
-extension UpEarly {
+extension UEA {
 	/// A namespace for COntrollers, Services, etc.
 	enum Controllers {
 	}

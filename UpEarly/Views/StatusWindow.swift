@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension UpEarly.Views{
+extension UEAView{
 	
 	/// Window style, docked to MenuBarExtra Scene.
 	struct StatusWindow: View {
@@ -15,7 +15,7 @@ extension UpEarly.Views{
 		// MARK: - StatusWindow View Body
 		
 		var body: some View {
-			Text("Hello, World!")
+			Text("A String...")
 		}
 	}
 }
@@ -23,5 +23,5 @@ extension UpEarly.Views{
 // MARK: - StatusWindow #Preview
 
 #Preview {
-	UpEarly.Views.StatusWindow()
+	UEAView.StatusWindow()
 }

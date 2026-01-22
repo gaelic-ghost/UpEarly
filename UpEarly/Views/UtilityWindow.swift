@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension UpEarly.Views{
+extension UEAView{
 	
 	/// Floating, separate hierarchy... maybe should adjust that, though... need to double check that info...
 	struct UtilityWindow: View {
@@ -15,7 +15,7 @@ extension UpEarly.Views{
 		// MARK: - UtilityWindow View Body
 		
 		var body: some View {
-			Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+			Text("A String...")
 		}
 	}
 }
@@ -23,5 +23,5 @@ extension UpEarly.Views{
 // MARK: - UtilityWindow #Preview
 
 #Preview {
-	UpEarly.Views.UtilityWindow()
+	UEAView.UtilityWindow()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension UpEarly.Views{
+extension UEAView{
 	
 	/// Asdf
 	struct Settings: View {
@@ -15,7 +15,7 @@ extension UpEarly.Views{
 		// MARK: - Settings View Body
 		
 		var body: some View {
-			Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+			Text("A String...")
 		}
 	}
 }
@@ -23,5 +23,5 @@ extension UpEarly.Views{
 // MARK: - Settings #Preview
 
 #Preview {
-	UpEarly.Views.Settings()
+	UEAView.Settings()
 }
