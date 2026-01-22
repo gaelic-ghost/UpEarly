@@ -11,11 +11,16 @@ extension UpEarly.Views{
 	
 	/// Window style, docked to MenuBarExtra Scene.
 	struct StatusWindow: View {
+		
+		// MARK: - StatusWindow View Body
+		
 		var body: some View {
 			Text("Hello, World!")
 		}
 	}
 }
+
+// MARK: - StatusWindow #Preview
 
 #Preview {
 	UpEarly.Views.StatusWindow()
