@@ -12,4 +12,10 @@ extension UpEarlyApp {
 	internal enum SVStyle: String {
 		case menu, window
 	}
+	
+	/// A type for selecting the MenuBarExtra symbol/icon thingy
+	/// String conformance to allow for dropping into the whatchamacallit...
+	internal enum menuSymbol: String {
+		case circle
+	}
 }

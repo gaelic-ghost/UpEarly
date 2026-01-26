@@ -16,7 +16,6 @@
  Pulls together summary components from each individual controller...
  Hmmm... this could be done a number of ways...
  
- 
  */
 
 // TODO: way to summarize each component individually
