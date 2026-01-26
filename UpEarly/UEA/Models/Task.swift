@@ -13,7 +13,13 @@
 
 /// Asdf
 extension UEAModel {
-	/// Asdf
-	struct Task {
+	
+	///
+	enum TaskState {
+		
+	}
+	
+	/// A box to put tasks from a provider into... or all tasks from all providers...
+	struct TaskingBox {
 	}
 }

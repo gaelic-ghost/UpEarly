@@ -11,6 +11,7 @@
 typealias UEAModel = UEA.Models
 
 /// An extension of UpEarly for...
+/// Asdf
 extension UEA {
 	/// A namespace for Data Modeling, DTOs, etc.
 	enum Models {

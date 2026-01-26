@@ -20,6 +20,16 @@ extension UEAModel {
 	// TODO: Initial implementation, daily, nothing more...
 	// TODO: Later, expand to three-day, weekend, week-ahead, weekly, etc...
 	
+	/// Summary kind, status, etc...
+	enum SummaryState {
+		
+	}
+	
+	/// A box to put summaries in... or... hmmm ... yeah, that.
+	struct SummaryBox {
+		
+	}
+	
 	/// Asdf
 	struct DailySummary {
 		

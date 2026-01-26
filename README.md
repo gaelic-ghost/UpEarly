@@ -37,3 +37,59 @@ I use Xcode a lot, so any codebase-related tasks are gonna be in-source as pragm
 In addition to the coding tasks found among the source code, the repository-related tasks are listed immediately below:
 - Add Apache license.
 - Other stuff.
+
+## Key Concepts
+
+### Priorities and Tones
+Some things I wanna hear first, some things I ~~don't wanna hear at all~~ wanna hear *after* the good news. And some things I wanna hear worded more softly if they're bad news, or hear them alongside reminders that it's not as bad as my brain wants to think in the morning, especially before my meds have kicked in.
+
+### Cases and Details
+Enum cases to express general state of something. Like, events.intensity could have cases .clear (calendar is open all day), .light (an event or two, nothing known to be super stressful to me), .heavy (a lot of stuff, or something stressful, or something late in the day, etc)
+Used to sort priorities, adjust tone, and determine level of disclosure in the initial summary.
+Details are the, well, details of a given category.
+
+## Architecture
+
+### Setup
+
+#### Implicit Configuration
+
+#### User Customization
+
+### Routing & Run-to-Run Adjustments
+
+#### Calling/Scheduling
+
+#### b
+
+### Inputs
+
+#### a
+
+#### b
+
+#### c
+
+#### d
+
+### Processing/Pipelines
+
+#### 1
+
+#### 2
+
+### Outputs
+
+#### Audio-First
+
+#### Multi-Media
+
+#### Text-Centric
+
+#### Output Transformation
+
+### Delivery & Defferal
+
+#### Immediate Delivery from...
+
+#### etc...

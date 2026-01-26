@@ -7,9 +7,10 @@
 
 
 /*
- 
+ Imports:
+ ...
+ ...
  */
-
 import SwiftUI
 
 // TODO: A lot...
@@ -23,11 +24,14 @@ import SwiftUI
 // TODO: Add: Various Services in the Controllers namespace.
 // TODO: Organize TODO pragmas across various namespaces.
 // TODO: Add: Basic ViewModifiers, including MenuBarExtra-specific ones.
+// TODO: Map out onboarding flow, choices for details of concern, that sorta thing
 
+/// Asdf
+/// Asdf
 @main
 struct UpEarlyApp: App {
 	
-	// MARK: - App Properties
+	// MARK: - App Struct Properties
 	
 	/// Variable for controlling the prescense of the MenuBarExtra icon.
 	/// It's fetched from, and stored within, UserDefaults via the @AppStorage property wrapper.
@@ -35,11 +39,15 @@ struct UpEarlyApp: App {
 	@AppStorage("isInMenuBar") private var isInMenuBar: Bool = true
 	@AppStorage("statusViewStyle") private var statusViewStyle: SVStyle = .menu
 	
-	// MARK: - App Scene Body
+	// MARK: - App Struct Scene Body
 	
-	///
+	/// Asdf
 	var body: some Scene {
-		//
+		
+		// MARK: - MenuBarExtra Scene
+		
+		/// Asdf
+		/// Asdf
 		MenuBarExtra(
 			// TODO: Add: Real Title.
 			"title...",
@@ -63,10 +71,15 @@ struct UpEarlyApp: App {
 					UpEarly.Views.StatusWindow()
 			}
 		}
+		
+		// MARK: Window Scenes
+		
+		/// Asdf
 		/// Floating Window
 		Window("Floating Window", id: "floating") {
 			UpEarly.Views.UtilityWindow()
 		}
+		/// Asdf
 		/// Settings/Config
 		Window("Application Settings for UpEarly.app", id: "appSettings") {
 			UpEarly.Views.Settings()
