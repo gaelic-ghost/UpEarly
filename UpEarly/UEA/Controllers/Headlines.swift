@@ -11,6 +11,13 @@
  ...
  */
 
+/*
+ Process:
+ ...
+ ...
+ */
+
+
 // News and whatnot...
 // TODO: Fetch logic.
 // TODO: Caching, if needed.
@@ -18,7 +25,7 @@
 // TODO: Transform logic.
 // TODO: Integrate with Inoreader API
 
-/// Asdf
+/// An extension of... for...
 extension UEAController {
 	/// Asdf
 	final class Headlines {

@@ -11,7 +11,13 @@
  ...
  */
 
-/// Asdf
+/*
+ Overview of:
+ ...
+ ...
+ */
+
+/// An extension of... for...
 extension UEAModel {
 	/// Asdf
 	enum ForecastState {

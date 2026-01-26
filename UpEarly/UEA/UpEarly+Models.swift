@@ -5,8 +5,6 @@
 //  Created by Gale Williams on 1/22/26.
 //
 
-// TODO: A lot...
-
 // A typealias of the namespace 'UEA.Models'
 typealias UEAModel = UEA.Models
 

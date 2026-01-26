@@ -11,9 +11,15 @@
  ...
  */
 
+/*
+ Overview of:
+ ...
+ ...
+ */
+
 import Foundation
 
-/// Asdf
+/// An extension of... for...
 extension UEAModel {
 	
 	

@@ -11,6 +11,12 @@
  ..
  */
 
+/*
+ Process:
+ ...
+ ...
+ */
+
 // TODO: Fetch logic.
 // TODO: Caching, if needed.
 // TODO: Data modelling.
@@ -20,7 +26,7 @@
 // TODO: Fantastical.app integration? COuld proxy Remindrs and Google Tasks through that..?
 // TODO: Google Tasks integration.
 
-/// Asdf
+/// An extension of... for...
 extension UEAController {
 	/// Asdf
 	final class Tasks {

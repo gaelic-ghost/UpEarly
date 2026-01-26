@@ -5,8 +5,6 @@
 //  Created by Gale Williams on 1/22/26.
 //
 
-// TODO: A lot...
-
 /// A typealias of the namespace 'UEA.Controllers'
 typealias UEAController = UEA.Controllers
 

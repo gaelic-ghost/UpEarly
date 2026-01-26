@@ -12,6 +12,14 @@
  */
 import EventKit
 
+/*
+ Process:
+ Pull events from various providers
+ Normalize events
+ ...
+ ...
+ */
+
 // TODO: Fetch logic.
 // TODO: Caching, if needed.
 // TODO: Data modelling.
@@ -21,17 +29,7 @@ import EventKit
 // TODO: GCal support
 
 
-
-/*
- Process:
- 
- Pull events from various providers
- Normalize events
- ...
- 
- */
-
-/// Asdf
+/// An extension of... for...
 extension UEAController {
 	/// Asdf
 	final class Events {

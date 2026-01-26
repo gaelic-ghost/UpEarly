@@ -11,10 +11,16 @@
  ...
  */
 
+/*
+ Overview of:
+ ...
+ ...
+ */
+
 
 // TODO: Impl
 
-/// Asdf
+/// An extension of... for...
 extension UEAModel {
 	
 	/// A type for the state of a news day overall, or an individual topic or publication

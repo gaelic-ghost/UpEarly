@@ -13,12 +13,18 @@
  */
 import WeatherKit
 
+/*
+ Process:
+ ...
+ ...
+ */
+
 // TODO: Fetch logic.
 // TODO: Caching, if needed.
 // TODO: Data modelling.
 // TODO: Transform logic.
 
-/// An extension of...
+/// An extension of... for...
 extension UEAController {
 	/// For forecast stuff...
 	final class Weather {

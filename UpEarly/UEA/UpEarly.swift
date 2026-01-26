@@ -5,6 +5,8 @@
 //  Created by Gale Williams on 1/22/26.
 //
 
+// TODO: Consider consolidating the +files back into this one.
+
 /// Typealias for UpEarly
 typealias UEA = UpEarly
 

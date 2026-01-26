@@ -26,6 +26,8 @@ import SwiftUI
 // TODO: Add: Basic ViewModifiers, including MenuBarExtra-specific ones.
 // TODO: Map out onboarding flow, choices for details of concern, that sorta thing
 
+// TODO: Consider service orchestration here, based on how bg activity will be handled... Needs more thought, as well.
+
 /// Asdf
 /// Asdf
 @main

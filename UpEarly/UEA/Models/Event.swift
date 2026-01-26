@@ -11,7 +11,13 @@
  ...
  */
 
-/// Asdf
+/*
+ Overview of:
+ ...
+ ...
+ */
+
+/// An extension of... for...
 extension UEAModel {
 	
 	/// Overall state of a calendar, and it's box full of events, details, etc
