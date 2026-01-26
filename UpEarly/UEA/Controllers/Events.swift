@@ -20,6 +20,17 @@ import EventKit
 // TODO: Tap into Fantastical..? Would make things nice and simple, maybe...
 // TODO: GCal support
 
+
+
+/*
+ Process:
+ 
+ Pull events from various providers
+ Normalize events
+ ...
+ 
+ */
+
 /// Asdf
 extension UEAController {
 	/// Asdf

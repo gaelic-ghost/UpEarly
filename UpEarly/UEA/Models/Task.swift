@@ -14,12 +14,12 @@
 /// Asdf
 extension UEAModel {
 	
-	///
-	enum TaskState {
+	/// A type for the oevral...
+	enum TaskingState {
 		
 	}
 	
-	/// A box to put tasks from a provider into... or all tasks from all providers...
+	/// A box to put normalized tasks into...
 	struct TaskingBox {
 	}
 }
