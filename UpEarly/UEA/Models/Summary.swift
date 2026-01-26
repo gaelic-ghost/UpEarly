@@ -17,8 +17,6 @@
  ...
  */
 
-import Foundation
-
 /// An extension of... for...
 extension UEAModel {
 	

@@ -1,10 +1,9 @@
 //
-//  Configuration.swift
+//  Onboarding.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/26/26.
 //
-
 
 /*
  Imports:
@@ -18,13 +17,7 @@
  ...
  */
 
-// TODO: A lot...
-
 /// An extension of... for...
 extension UEAController {
 	
-	/// Asdf
-	final class Configuration {
-		
-	}
 }

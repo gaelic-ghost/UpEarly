@@ -10,10 +10,11 @@
  ..
  ..
  */
+import EventKit
 
 /*
  Process:
- ...
+ This is kept separate from Controllers.Events despite using the same framework because I'll be adding multiple tasking providers eventually, which will necessitate some changes here. I might want to rethink this, but I need to look over EventKit first...
  ...
  */
 

@@ -31,7 +31,6 @@ import Observation
 /// An extension of... for...
 extension UEAController {
 	
-	/// Asdf
 	/// Observable to allow driving SwiftUI.
 	/// May make a smaller, inner value type @Observable instead, need to figure out the rest of this...
 	@Observable

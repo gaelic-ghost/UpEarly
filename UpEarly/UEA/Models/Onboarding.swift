@@ -1,5 +1,5 @@
 //
-//  Orchestra.swift
+//  Onboarding.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/26/26.
@@ -17,12 +17,12 @@
  ...
  */
 
-// TODO: Orchestrator
-// TODO: Services
-// TODO: Startup, Restart, Shutdown
-// TODO: Scheduling, Calling, etc
+// TODO: A lot...
 
 /// An extension of... for...
 extension UEAModel {
+	
+	// TODO: MOdel for onboarding/OOBE progress...
+	// TODO: Use for suggestions as usage continues...
 	
 }

@@ -24,6 +24,7 @@
 // TODO: way to choose type of summary by kind of component and state of component
 // TODO: way for all states to influence each other
 // TODO: would likely make more sense to have an orchestrator class, now that i flesh this out more...
+// TODO: Value type..? At least for local..?
 
 /// An extension of UEAController for housing the Summarization controller class.
 extension UEAController {

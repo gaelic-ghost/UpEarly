@@ -71,11 +71,15 @@ struct UpEarlyApp: App {
 		
 		/// Floating Window
 		Window("Floating Window", id: "floating") {
-			UpEarly.Views.UtilityWindow()
+			UEAView.UtilityWindow()
 		}
 		/// Settings/Config
-		Window("Application Settings for UpEarly.app", id: "appSettings") {
-			UpEarly.Views.Settings()
+		Window("Application Settings for UpEarly", id: "appSettings") {
+			UEAView.Settings()
+		}
+		/// Onboarding/"Out Of Box Experience" (OOBE)
+		Window("Initial Configuration/OOBE for UpEarly", id: "OOBE") {
+			UEAView.Onboarding()
 		}
     }
 }
