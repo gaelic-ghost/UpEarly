@@ -1,5 +1,5 @@
 //
-//  Tasks.swift
+//  Tasking.swift
 //  UpEarly
 //
 //  Created by Gale Williams on 1/22/26.
@@ -30,7 +30,7 @@ import EventKit
 /// An extension of... for...
 extension UEAController {
 	/// Asdf
-	final class Tasks {
+	final class Tasking {
 		// TODO: Stuff.
 		
 		

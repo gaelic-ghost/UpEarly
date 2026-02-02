@@ -32,16 +32,17 @@ import CoreLocation
 extension UEAController {
 	
 	/// For forecast stuff...
-	final class Weather {
+	enum Weather {
 		
-		// MARK: - Properties
+		/// Initializes and returns an instance of WeatherKit.WeatherService to the caller.
+		/// Provides the option of shared, or unique, WeatherService.
+		func getWeatherService(shared: Bool = true) -> WeatherService {
+			return shared ? WeatherService.shared : WeatherService()
+		}
 		
-		// Instance of the interface to WeatherKit
-		// Maybe grab the .shared, for now...
-		let service: WeatherService = WeatherService.shared
-		
-		
-		// MARK: - Methods
+		func getLocationManager() -> CLLocationManager {
+			return CLLocationManager()
+		}
 		
 	}
 }
