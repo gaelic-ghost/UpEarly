@@ -18,7 +18,7 @@ I want an easy way to get up to speed on my day ahead. Preferably via spoken nat
 ## And what's gonna happen after that?
 
 ### Roadmap (WIP):
-- Interface to Things.app (via local App, maybe callback url scheme, or maybe they have a localhost I can GET at. pun intended.).
+- Interface to Things.app (via local App, maybe callback url scheme, or maybe they have a localhost I can GET at. pun intended.
 - Interface to Inoreader.app (likely via cloud API).
 - Scheduled batching of event pulls, summary updates, etc.
 - App Intents support. Shortcuts, Siri, Spotlight, etc.
@@ -40,13 +40,14 @@ In addition to the coding tasks found among the source code, the repository-rela
 
 ## Key Concepts
 
+For this project, I'm focused on using natural language interfaces where they're the most useful for improving the user experience.
+
 ### Priorities and Tones
-Some things I wanna hear first, some things I ~~don't wanna hear at all~~ wanna hear *after* the good news. And some things I wanna hear worded more softly if they're bad news, or hear them alongside reminders that it's not as bad as my brain wants to think in the morning, especially before my meds have kicked in.
+Waking up, there are some things I wanna hear about first, and other things that I ~~don't wanna hear at all~~ wanna hear *after* some better news first. Some things I'd like to hear with softer wording, if they're less comfy topics. Or maybe hear them alongside reminders that it's not as bad as my brain wants to think. I imagine I'm not alone in this.
 
 ### Cases and Details
-Enum cases to express general state of something. Like, events.intensity could have cases .clear (calendar is open all day), .light (an event or two, nothing known to be super stressful to me), .heavy (a lot of stuff, or something stressful, or something late in the day, etc)
-Used to sort priorities, adjust tone, and determine level of disclosure in the initial summary.
-Details are the, well, details of a given category.
+Using Enum cases to express the subjective quality of an event, or headline, to the end user. For example, Events.intensity could have cases .clear (calendar is open all day), .light (an event or two, nothing known to be super stressful to me), .heavy (a lot of stuff, or something stressful, or something late in the day, etc)
+These are used to sort priorities in the summary, adjust tones, determine initial level of disclosure, etc.
 
 ## Architecture
 
