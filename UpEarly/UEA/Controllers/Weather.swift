@@ -11,12 +11,11 @@
  ...
  WeatherKit Framework used on platforms where it's available
  REST API otherwise.
+ CoreLocation to get current location for forecasts, and track significant changes.
+ User-defined location otherwise, and for tests. Might need validation logic for that.
  */
-/// iOS 16+, macOS 13+
-/// Maybe replace with proper availability attribute at some point...
-#if canImport(WeatherKit)
 import WeatherKit
-#endif
+import CoreLocation
 
 /*
  Process:
@@ -27,10 +26,7 @@ import WeatherKit
  ...
  */
 
-// TODO: Fetch logic.
-// TODO: Caching, if needed.
-// TODO: Data modelling.
-// TODO: Transform logic.
+// TODO: Fetch logic, etc
 
 /// An extension of... for...
 extension UEAController {

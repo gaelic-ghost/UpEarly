@@ -32,5 +32,11 @@ extension UEAController {
 	/// Basically the orchestrator of all other services... well, hmmm.... Actually...
 	final class Summarization {
 		// TODO: Stuff.
+		
+		
+		// MARK: - Properties
+		
+		// MARK: - Methods
+		
 	}
 }

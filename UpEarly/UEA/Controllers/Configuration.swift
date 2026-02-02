@@ -26,5 +26,11 @@ extension UEAController {
 	/// Asdf
 	final class Configuration {
 		
+		
+		// MARK: - Properties
+		
+		// MARK: - Methods
+		
+		
 	}
 }

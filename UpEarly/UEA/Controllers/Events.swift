@@ -35,5 +35,11 @@ extension UEAController {
 	/// Asdf
 	final class Events {
 		// TODO: Stuff.
+		
+		// MARK: - Properties
+		
+		// MARK: - Methods
+		
+		
 	}
 }

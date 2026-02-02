@@ -31,10 +31,15 @@ import Observation
 /// An extension of... for...
 extension UEAController {
 	
-	/// Observable to allow driving SwiftUI.
-	/// May make a smaller, inner value type @Observable instead, need to figure out the rest of this...
+	/// Observable to facillitate driving SwiftUI.
+	/// May make a smaller, inner value type @Observable instead, need to sort out the rest of this...
 	@Observable
 	final class Orchestration {
+		
+		// MARK: - Properties
+		
+		// MARK: - Methods
+		
 		
 	}
 }

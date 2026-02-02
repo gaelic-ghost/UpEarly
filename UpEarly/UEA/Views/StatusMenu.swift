@@ -21,7 +21,7 @@ import SwiftUI
 /// An extension for...
 extension UEAView{
 	
-	/// Asdf
+	/// Menu style, docked to MenuBarExtra Scene.
 	struct StatusMenu: View {
 		
 		// MARK: - StatusMenu View Body

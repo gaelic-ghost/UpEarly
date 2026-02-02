@@ -19,7 +19,5 @@
 
 /// An extension of... for...
 extension UEAModel {
-	
 	// TODO: Config, ConfigKind, etc
-	
 }

@@ -17,6 +17,8 @@
  ...
  */
 
+// TODO: Adapt this around the WeatherKit types
+
 /// An extension of... for...
 extension UEAModel {
 	/// Asdf
