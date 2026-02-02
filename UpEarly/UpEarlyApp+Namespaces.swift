@@ -1,8 +1,8 @@
 //
-//  UpEarlyNamespaces.swift
+//  UpEarlyApp+Namespaces.swift
 //  UpEarly
 //
-//  Created by Gale Williams on 1/22/26.
+//  Created by Gale Williams on 2/2/26.
 //
 
 // TODO: Double check scoping of typealiases.
