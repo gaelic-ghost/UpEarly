@@ -34,9 +34,8 @@ I use Xcode a lot, so any codebase-related tasks are gonna be in-source as pragm
 - A formatted example of a to-do mark: `// TODO: - This would indicate a waiting task on the proverbial "To-Do list".`
 - A formatted example of a bug-fix mark: `// FIXME: - This would indicate a bug, it probably needs squashed.`
 
-In addition to the coding tasks found among the source code, the repository-related tasks are listed immediately below:
-- Add Apache license.
-- Other stuff.
+In addition to the coding tasks found among the source code, any open repository-related tasks are listed immediately below:
+- No tasks listed at this time.
 
 ## Key Concepts
 
@@ -49,6 +48,10 @@ Waking up, there are some things I wanna hear about first, and other things that
 Using Enum cases to express the subjective quality of an event, or headline, to the end user. For example, Events.intensity could have cases .clear (calendar is open all day), .light (an event or two, nothing known to be super stressful to me), .heavy (a lot of stuff, or something stressful, or something late in the day, etc)
 These are used to sort priorities in the summary, adjust tones, determine initial level of disclosure, etc.
 
-## Architecture
+## Repo Structure
 
-Workin' on this bit. Nearly there...
+Structure is looking stable, need to add this section shortly.
+
+## Architecture and Flows
+
+Workin' on finalizing this bit, as well.
