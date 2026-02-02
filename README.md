@@ -3,16 +3,16 @@
 
 ## What is this *"Up Early"*?
 
-UpEarly (TODO: insert phonetic spelling) is a macOS Menu Bar App that gathers my upcomming events and tasks, as well as the local weather via WeatherKit, summarizes my upcomming day, and tells me about it in an accessible way.
+UpEarly is a work-in-progress macOS Menu Bar App that summarizes you day in a friendly, accessible way. It gathers upcomming events and tasks, local weather, as well as select headlines on your chosen topics. Outputs include text and high-quality speech synthesis.
 
 ## Why would you build this?
 
-I want an easy way to get up to speed on my day ahead. Preferably via spoken natural language. I got up early today and decided I wanted to start making that.
+I want an easy way to get up to speed on my day ahead. Preferably via spoken natural language. I got up early one day and decided to start making that. Hence the name.
 
 ### Minimum Useful Product (MUP):
-- Basic integrations with Calendar.app (EventKit), Reminders.app, and WeatherKit.
-- Basic summarization via Gemini API or similar.
-- TTS via Gemini API (which had thebest quality for cost, last I checked).
+- Basic integrations with Calendar.app & Reminders.app via EventKit, WeatherKit, CoreLocation, and the InoReader API for news feeds.
+- Basic summarization via Gemini API, or on-device.
+- TTS via Gemini API (best quality for cost, last I checked), or on-device.
 - Whatever else I forgot to add to this list.
 
 ## And what's gonna happen after that?
@@ -50,46 +50,4 @@ Details are the, well, details of a given category.
 
 ## Architecture
 
-### Setup
-
-#### Implicit Configuration
-
-#### User Customization
-
-### Routing & Run-to-Run Adjustments
-
-#### Calling/Scheduling
-
-#### b
-
-### Inputs
-
-#### a
-
-#### b
-
-#### c
-
-#### d
-
-### Processing/Pipelines
-
-#### 1
-
-#### 2
-
-### Outputs
-
-#### Audio-First
-
-#### Multi-Media
-
-#### Text-Centric
-
-#### Output Transformation
-
-### Delivery & Defferal
-
-#### Immediate Delivery from...
-
-#### etc...
+Workin' on this bit. Nearly there...
