@@ -1,6 +1,8 @@
 #  UpEarly
 *..where the money folders sippin' Folgers be, of course.*
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G61SD8GX)
+
 ## What is this *"Up Early"*?
 
 UpEarly is a work-in-progress macOS Menu Bar App that summarizes you day in a friendly, accessible way. It gathers upcomming events and tasks, local weather, as well as select headlines on your chosen topics. Outputs include text and high-quality speech synthesis.
